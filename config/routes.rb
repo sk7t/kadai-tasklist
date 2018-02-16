@@ -1,8 +1,8 @@
-#Rails.application.routes.draw do
-#  root to: 'tasks#index'
+Rails.application.routes.draw do
+  root to: 'tasks#index'
 
-#  resources :tasks
-#end
+  resources :tasks
+end
 
 Rails.application.routes.draw do
   root to: 'toppages#index'
